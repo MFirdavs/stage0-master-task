@@ -4,6 +4,17 @@ public class Power {
 
     public void printPower(int numberToPrint, int power) {
 
+        /*
+        Write a program that will find power of any number using for loop
+         */
+
+        int result = 1;
+        for (int i = 0; i < power; i++) {
+            result *= numberToPrint;
+        }
+
+        System.out.println(result);
+
     }
 
     public static void main(String[] args) {
